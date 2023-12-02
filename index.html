@@ -5,82 +5,37 @@
         <title>Odum privacy and security principles</title> <!-- This is the titlel for you page, it shows on your tab and also in web searches. -->
         <meta charset="UTF-8"> <!-- This is an encoding that enables the browser to convert characters in to numbers(binary). -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body> <!-- This is the actual content of you webpage. -->
         <main> <!-- This semantic tag indicates the main content of your webpage's body. -->
-            <div class="main">
                 <div>
                     <div class="main-spacer"></div>
-                    <img src="shield.png" class="shield center"/>
+                    <img src="img/shield.png" id="shield" class="center" alt="A shield with a thick blue outline, a white middle and a pointed tip.">
+                    <!-- The alt attribute (alternate text) allows you to add some semantic information to elements. It is important to include this attribute for <img>. -->
                 </div>
-                <div style="margin-top: 5%"></div>
-                <div>
-                    <h1>Our privacy and<br>security <span id="principle"> principles.</span></h1>
-                    <h3 class="msg center">We build privacy that works for everyone. Protecting our users’ privacy and security is a responsibility that comes with creating products and services that are free of cost and accessible for all. This is especially important as technology progresses and safety needs evolve. We look to these principles to guide our products, our processes, and our people in keeping our users’ data private, safe, and secure.</h3>
+                <div class="spacer1"></div>
+                <div class="header">
+                    <h1>Our privacy and<br>security <span> principles.</span></h1>
+                    <!-- Headers are hierarchical ways of expressing importance of headings or titles. It has semantic meaning to it so it's use must be reasonable. -->
+                    <!-- <strong> is a semantic tag that makes you text bold and also expresses importance of it's content. -->
+                    <!-- <b> makes your text bold without any meaning and <i> makes your text italic without any meaning. It is better to use <strong> and <em> for such
+                        purposes to improve the accessibility of your website. -->
+                    <p class="center">
+                        We prioritize privacy and security for everyone by leveraging Firebase as our backend infrastructure. Safeguarding our users' data is an inherent responsibility that accompanies the development of free, inclusive products and services. With advancing technology and evolving safety requirements, ensuring privacy remains crucial. These principles steer our product development, operational procedures, and workforce, all dedicated to upholding the confidentiality, safety, and integrity of our users' information.
+                    </p>
                 </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">1.</div> -->
-                        <h2 class="title">Respect our users.<br><span class="subtitle"> Respect their privacy.</span></h2>
+                <div class="spacer2"></div>
+                <div class="card-container elevation center">
+                    <div class="left-container">
+                        <div class="number">1.</div>
+                        <div><h3 class="headline"><span>Respect our users.</span><br>Respect their privacy.</h3></div>
                     </div>
-                    <div class="content">
+                    <div class="right-container">
                         <p>We believe these ideas are inseparable. Together, they represent a single, core belief that has influenced everything we’ve made since day one, and everything we’ll make moving forward. When people use our products, they trust us with their information, and it’s our job to do right by them. This means always being thoughtful about what data we use, how we use it, and how we protect it.</p>
                     </div>
                 </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">2.</div> -->
-                        <h2 class="title">Be clear<span class="subtitle"> about what data we collect and why.</span></h2>
-                    </div>
-                    <div class="content">
-                        <p>To help people make informed decisions about how they use Odum products, we make it easy to understand what data we collect, how it’s used, and why. Being transparent means making this information readily available, understandable, and actionable.</p>
-                    </div>
-                </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">3.</div> -->
-                        <h2 class="title">Never sell<span class="subtitle"> our users’ personal information to anyone.</span></h2>
-                    </div>
-                    <div class="content">
-                        <p>We use data to make Odum products like Search and Maps as useful as possible. We also use data to serve more relevant ads. While these ads help fund our services and make them free of charge for everyone, it’s important to clarify that our users’ personal information is simply not for sale.</p>
-                    </div>
-                </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">4.</div> -->
-                        <h2 class="title">Make it easy<span class="subtitle"> for people to control their privacy.</span></h2>
-                    </div>
-                    <div class="content">
-                        <p>When it comes to privacy, we know one size doesn’t fit all. Every Odum Account is built with on/off data controls, so our users can choose the privacy settings that are right for them. And as technology evolves, our privacy controls evolve as well, ensuring that privacy is always an individual choice that belongs to the user.</p>
-                    </div>
-                </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">4.</div> -->
-                        <h2 class="title">Empower people<span class="subtitle"> to review, move, or delete their data.</span></h2>
-                    </div>
-                    <div class="content">
-                        <p>We believe every user should have access to the personal information they’ve shared with us – anytime and for any reason. That’s why we continue to make it easier for people to access and review their data, download and move it to another service if they want, or delete it entirely.</p>
-                    </div>
-                </div>
-                <div class="spacer"></div>
-                <div class="card center">
-                    <div class="data">
-                        <!-- <div class="number">4.</div> -->
-                        <h2 class="title">Build the strongest security<span class="subtitle"> technologies into our products.</span></h2>
-                    </div>
-                    <div class="content">
-                        <p>Respecting the privacy of our users means protecting the data they trust us with. To keep every Odum product and service secure for our users, we engineer and employ one of the most advanced security infrastructures in the world. This means constantly strengthening our built-in security technologies to detect and protect against evolving online threats, before they ever reach our users.</p>
-                    </div>
-                </div>
-            </div>
         </main>
     </body>
 </html>
